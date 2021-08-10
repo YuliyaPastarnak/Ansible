@@ -1,0 +1,6 @@
+---
+- name: Running nagios roles/oleg.nagios-server
+  hosts: 192.168.50.222
+  become: yes
+  roles:
+    - roles/oleg.nagios-server
